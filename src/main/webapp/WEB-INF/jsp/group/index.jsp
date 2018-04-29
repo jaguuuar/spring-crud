@@ -16,17 +16,19 @@
 
 <style>
 
-form ul { list-style-type: none; }
+form ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
 form ul li { display: inline-block }
 form { box-sizing: border-box; }
 
 .add-group{
-    transform: scale(1.25);
     font-family: 'Open Sans Condensed', arial, sans;
     width: auto;
     height: 40px;
     background: #4D4D4D;
-    margin-left: 150px;
 }
 
 }

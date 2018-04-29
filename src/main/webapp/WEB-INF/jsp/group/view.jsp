@@ -92,6 +92,11 @@ form ul li { display: inline-block }
     text-transform: uppercase;
 }
 
+.join-group form ul li {
+    weight: 30px;
+}
+
+
 .w3-button {
     -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
     -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;

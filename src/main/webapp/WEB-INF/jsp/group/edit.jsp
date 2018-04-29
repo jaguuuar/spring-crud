@@ -12,7 +12,13 @@ function adjust_textarea(h) {
 }
 </script>
 
+
 <style>
+
+body {
+    background-color: #FFE3C6;
+}
+
 .form-style-8{
     font-family: 'Open Sans Condensed', arial, sans;
     width: 500px;

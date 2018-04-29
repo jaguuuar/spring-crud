@@ -1,4 +1,4 @@
-<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head><title>Users</title>
@@ -8,29 +8,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
-
-  <script type="text/javascript">
-  //auto expand textarea
-  function adjust_textarea(h) {
-      h.style.height = "20px";
-      h.style.height = (h.scrollHeight)+"px";
-  }
-  </script>
-
-<style>
-
+<style type="text/css">
 
 form ul { list-style-type: none; }
 form ul li { display: inline-block }
 form { box-sizing: border-box; }
 
 .add-user{
-    transform: scale(1.25);
     font-family: 'Open Sans Condensed', arial, sans;
     width: auto;
     height: 40px;
     background: #4D4D4D;
-    margin-left: 150px;
 }
 
 }
@@ -49,7 +37,9 @@ form { box-sizing: border-box; }
     background: transparent;
     margin-bottom: 10px;
     font: 16px Arial, Helvetica, sans-serif;
-    height: 45px;
+    width: auto;
+    height: 32px;
+
 }
 
 .add-user input[type="button"],
@@ -97,6 +87,11 @@ form { box-sizing: border-box; }
     text-decoration: none;
 }
 
+input {
+    width: auto;
+    height: 30px;
+}
+
 table.cinereousTable {
   font-family: Verdana, Geneva, sans-serif;
   border: 6px solid #4D4D4D;
@@ -134,6 +129,15 @@ table.cinereousTable tfoot td {
 }
 
 </style>
+
+  <script type="text/javascript">
+  //auto expand textarea
+  function adjust_textarea(h) {
+      h.style.height = "20px";
+      h.style.height = (h.scrollHeight)+"px";
+  }
+  </script>
+
 
 </head>
 <body>
